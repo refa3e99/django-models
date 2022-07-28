@@ -6,7 +6,7 @@ from django.views.generic import TemplateView, ListView, DetailView
 from .models import Snack
 # Create your views here.
 class HomePage(TemplateView):
-    template_name = 'home.html'
+    template_name = 'base.html'
 
 class SnacksListView(ListView):
     template_name = 'snack_list.html'

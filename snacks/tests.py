@@ -28,4 +28,4 @@ class SnacksTest(TestCase):
         url = reverse('home')
         response = self.client.get(url)
 
-        self.assertTemplateUsed(response, 'home.html')
+        self.assertTemplateUsed(response, 'base.html')
